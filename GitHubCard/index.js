@@ -1,10 +1,17 @@
-/*
-  STEP 1: using axios, send a GET request to the following URL
-    (replacing the placeholder with your Github name):
-    https://api.github.com/users/<your name>
-*/
+import axios from 'axios'
 
 /*
+  STEP 1: using axios, send a GET request to the following URL
+    (replacing the placeholder witgith your Github name):
+    https://api.github.com/users/<your name>
+*/
+const placeHolder = document.querySelector
+axios.get('https://api.github.com/users/TimothyDennis')
+  .then(function (hello) {
+    // handle success
+    console.log(hello);
+  })
+  /*
   STEP 2: Inspect and study the data coming back, this is YOUR
     github info! You will need to understand the structure of this
     data in order to use it to build your component function
@@ -28,7 +35,7 @@
     user, and adding that card to the DOM.
 */
 
-const followersArray = [];
+// const followersArray = [];
 
 /*
   STEP 3: Create a function that accepts a single object as its only argument.
